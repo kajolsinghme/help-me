@@ -12,24 +12,24 @@ const Navbar = () => {
         </Link>
 
         <div className="flex items-center gap-5 text-md font-medium text-gray-600 md:gap-8">
-          <a
+          <Link
             href="#explore"
             className="transition-colors hover:text-indigo-600"
           >
             Explore
-          </a>
-          <a
-            href="#how-it-works"
+          </Link>
+          <Link
+            href="/how-it-works"
             className="transition-colors hover:text-indigo-600"
           >
             How it works
-          </a>
-          <a
+          </Link>
+          <Link
             href="/login"
             className="transition-colors hover:text-indigo-600"
           >
             Log in
-          </a>
+          </Link>
         </div>
       </div>
     </nav>
